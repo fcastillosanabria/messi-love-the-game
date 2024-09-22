@@ -21,5 +21,5 @@ def App():
 App()
 
 # Crear una ventana con pywebview y configurar su tamaño y deshabilitar el redimensionamiento
-window = webview.create_window('Mi Aplicación', 'templates/index.html', width=1200, height=730, resizable=False)
+window = webview.create_window('Messi Game', 'templates/index.html', width=1200, height=730, resizable=False)
 webview.start()
